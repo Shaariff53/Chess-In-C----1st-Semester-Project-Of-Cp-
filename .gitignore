@@ -1,39 +1,35 @@
-# Executable files
+# ===== Build Output =====
 chess
 chess.exe
 *.out
+build/
+bin/
+dist/
 
-# Object files
+# ===== Object Files =====
 *.o
 *.obj
 *.a
 *.lib
 
-# IDE and editor files
+# ===== IDE and Editor Files =====
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+*.sublime-workspace
+*.sublime-project
 
-# Build directories
-build/
-bin/
-dist/
+# ===== CMake =====
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
-# Python temporary files (from extraction script)
-extract_code.py
-__pycache__/
-*.pyc
-
-# Document files (Word docs with code)
-*.docx
-*.doc
-
-# Temporary files
+# ===== Temporary Files =====
 *.tmp
 *.bak
+*.log
 
-# OS-specific
-Thumbs.db

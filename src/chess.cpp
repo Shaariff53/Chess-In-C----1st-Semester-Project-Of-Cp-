@@ -1,3 +1,20 @@
+/**
+ * @file chess.cpp
+ * @brief A console-based chess game implementation in C++
+ * @author Muhammad Bin Ahsan (076), Shaariff Mujtaba Bhatti (112), Laiba Tahir (057)
+ * @date 2024
+ * @version 1.0
+ * 
+ * This program implements a complete chess game with:
+ * - Full board initialization with standard piece positions
+ * - Move validation for all piece types
+ * - Two-player turn-based gameplay
+ * - Chess algebraic notation support
+ * 
+ * To compile: g++ -std=c++11 -o chess chess.cpp
+ * To run: ./chess
+ */
+
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -7,6 +24,10 @@ using namespace std;
 
 const int BOARD_SIZE = 8;
 char board[BOARD_SIZE][BOARD_SIZE];
+
+// ============================================================================
+// BOARD INITIALIZATION AND DISPLAY
+// ============================================================================
 
 // Initialize the chessboard
 void initializeBoard() {
