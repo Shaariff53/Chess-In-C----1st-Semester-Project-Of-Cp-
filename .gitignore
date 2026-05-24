@@ -1,0 +1,39 @@
+# Executable files
+chess
+chess.exe
+*.out
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+bin/
+dist/
+
+# Python temporary files (from extraction script)
+extract_code.py
+__pycache__/
+*.pyc
+
+# Document files (Word docs with code)
+*.docx
+*.doc
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS-specific
+Thumbs.db
